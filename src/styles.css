@@ -1,0 +1,53 @@
+body {
+  background-color: bisque;
+  margin: 4rem 8rem;
+  font: normal 1.5rem sans-serif;
+}
+h1 {
+  text-align: center;
+}
+form {
+  width: 30rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  background-color: white;
+}
+input,
+textarea,
+select {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  resize: vertical;
+}
+.reply {
+  display: flex;
+  align-items: center;
+}
+.reply input {
+  margin: 0.75rem 0.755rem 0.75rem 0.25rem;
+  width: auto;
+}
+.m-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.m-btn div {
+  margin: 0.5rem;
+}
+.m-btn button {
+  padding: 0.5rem 2rem;
+  background-color: rgb(66, 83, 194);
+  color: white;
+  font-size: 1.5rem;
+}
+.m-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(115, 129, 223);
+    color: white
+}

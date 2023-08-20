@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="" method="get">
+        <h3>How can we help you ?</h3>
+        <label for="user-name">Your Name</label>
+        <input type="text" name="name" id="user-name" required />
+        <label for="user-email">Your Email-id</label>
+        <input type="email" name="mail" id="user-email" required />
+        <label for="user-phone">Your Phone No</label>
+        <input type="number" name="name" id="user-phone" required />
+        <label for="user-msg"> Your Message</label>
+        <textarea name="msg" id="user-msg" cols="30" rows="5"></textarea>
+        <label for="user-findus">How do you find us ?</label>
+        <select name="findus" id="user-findus">
+            <option value="">Instagram</option>
+            <option value="">Facebook</option>
+            <option value="">Friends</option>
+            <option value="">Search Engine</option>
+        </select>
+        <section >
+            <h3>How do we reply?</h3>
+            <div class="reply">
+                <input type="radio" name="reply" id="call" value="by-call">
+                <label for="call">Call Me</label>
+            </div >
+            <div class="reply">
+                <input type="radio" name="reply" id="email" value="by-email">
+                <label for="email">Call Me</label>
+            </div>
+            <div class="reply">
+                <input type="radio" name="reply" id="nocall" value="by-nocall">
+                <label for="nocall">Dont call me</label>
+            </div>
+            
+        </section><br>
+       
+        <section class="reply">
+            <input type="checkbox" name="agree" id="terms" value="accepted">
+            <label for="terms"> Agree for terms</label>
+        </section><br>
+       <section class="m-btn">
+        <div >
+            <button type="reset">Clear</button>
+        </div>
+        <div>    
+            <button type="submit">Submit</button>
+        </div>
+       </section>
+        
+      </form>
+    </main>
+  </body>
+</html>
